@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { HeaderComponent } from './header/header.component';
-
+import { RecipiesComponent } from './recipies/recipies.component'
+ 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

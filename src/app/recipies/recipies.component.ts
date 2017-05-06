@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { RecipiesListComponent } from './recipies-list/recipies-list.component';
 
 @Component({
   selector: 'app-recipies',
