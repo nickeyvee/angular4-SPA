@@ -8,10 +8,10 @@ import { Recipie } from '../recipies.model';
 })
 export class RecipiesListComponent implements OnInit {
   recipes: Recipie[] = [
-    new Recipie('A test recipie', 'this is an example',
-     'https://cdn.pixabay.com/photo/2015/04/10/00/41/food-715542_1280.jpg'),
-    new Recipie('A test recipie', 'this is an example',
-     'https://cdn.pixabay.com/photo/2015/04/10/00/41/food-715542_1280.jpg')
+    new Recipie('Pizza', 'this is an example',
+     'http://barcodedc.com/wp-content/gallery/food/pizza-junk-food-600.jpg'),
+    new Recipie('Cobb Salad', 'this is an example',
+     'https://kathdedon.files.wordpress.com/2010/06/cobb-salad.jpg')
   ];
 
   constructor() { }
